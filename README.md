@@ -19,13 +19,11 @@ To set up and run this project on your local machine:
     ```bash
     git clone [https://github.com/Petercollins55/EventListingApp.git](https://github.com/Petercollins55/EventListingApp.git)
     ```
-    *(I've already put your specific GitHub repo URL here for you!)*
 
 2.  **Navigate to the project folder:**
     ```bash
     cd EventListingApp
     ```
-    *(Or whatever you named your local project folder)*
 
 3.  **Install dependencies:**
     ```bash
