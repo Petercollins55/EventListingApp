@@ -39,7 +39,7 @@ To set up and run this project on your local machine:
     * Scan the QR code displayed in your terminal using the Expo Go app on your phone.
     * Or, click "Run on Android device/emulator" from the Metro Bundler page that opens in your browser.
 
-## Challenges and Learnings (Optional, but Recommended)
+## Challenges and Learnings
 * **Firebase Data Structure:** Understanding and implementing real-time data synchronization with Firestore was a key learning.
 * **Calendar Permissions:** Handling native device permissions for saving events to the calendar required careful implementation.
 * **Data Consistency:** Diagnosing and correcting subtle data entry issues (like field names with trailing spaces in Firestore, e.g., "description " instead of "description") was a valuable debugging experience.
