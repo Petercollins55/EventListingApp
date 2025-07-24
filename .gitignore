@@ -1,0 +1,63 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production build artifacts
+/build
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.*.local
+.vercel
+.netlify
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# editor directories and files
+.idea
+.vscode/ # Important for VS Code specific settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.bak
+
+# project directories (native build output & dependencies)
+android/build/
+android/.gradle/
+ios/build/
+ios/Pods/
+ios/.symlinks/
+
+# Expo specific
+.expo/
+web-build/
+.expo-shared/
+expo-env.d.ts # Already in your previous, kept for consistency
+
+# Native specific (already mostly there, but re-ordered for clarity)
+.kotlin/
+*.orig.*
+
+# Sensitive files (keys, credentials)
+*.jks             # Java Keystore for Android signing
+*.keystore        # Another common Android keystore extension
+debug.keystore    # Default Android debug keystore
+*.p8              # Apple Developer Program private key
+*.p12             # Apple Developer Program certificate
+*.key             # Generic key files
+*.mobileprovision # iOS provisioning profiles
+*.pem             # Certificate files (already in your previous, kept)
+
+# TypeScript build info
+*.tsbuildinfo
