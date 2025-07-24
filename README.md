@@ -23,7 +23,7 @@ To set up and run this project on your local machine:
 
 2.  **Navigate to the project folder:**
     ```bash
-    cd EventListingRNApp
+    cd EventListingApp
     ```
     *(Or whatever you named your local project folder)*
 
